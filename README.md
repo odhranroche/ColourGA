@@ -1,4 +1,4 @@
-# ColourGP
+# ColourGA
 Toy genetic algorithm with GUI
 
 Written in Lua for the LOVE framework. The population is made up of 8 individuals. The individuals genotype is a sequence of colours. An individuals fitness is based on how close to the sample image (image.bmp) they can get.
