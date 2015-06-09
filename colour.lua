@@ -16,7 +16,7 @@ function create_random_cell()
 		table.insert(ind, random_colour())
 	end
 
-    local mt = {__tostring = 
+    local mt = {__tostring = -- tostring for debugging purposes
         function(t)
             local buffer = {}
             for k, v in ipairs(t) do
@@ -36,7 +36,7 @@ function create_random_individual()
 		table.insert(list, create_random_cell())
 	end
     
-    local mt = {__tostring = 
+    local mt = {__tostring = -- tostring for debugging purposes
         function(t)
             local buffer = {}
             for k, v in ipairs(t) do
